@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
   module-init-tools \
   supervisor
 
-ENV STRONGSWAN_VERSION 5.5.0
+ENV STRONGSWAN_VERSION 5.8.2
 ENV GPG_KEY 948F158A4E76A27BF3D07532DF42C170B34DBA77
 
 RUN mkdir -p /usr/src/strongswan \
